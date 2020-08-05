@@ -58,7 +58,7 @@ START CSS
     padding:0;
     margin:0;
     max-width:100%;
-    
+    display: inline-block;
   }
   html{
     font-size:62.5%;
@@ -67,10 +67,12 @@ START CSS
     line-height:2;
     font-size:1.5rem;
     font-family: 'Roboto Mono', monospace;
+    text-align: center;
   }
   h1, h2, h3, h4{
     font-family: 'Chelsea Market', cursive;
     font-weight: 700;
+    font-size: 4rem;
     letter-spacing:3px;
     padding:4% 0;
   }
@@ -81,7 +83,6 @@ START CSS
   }
   .links a {
     width: 25%;
-    text-align: center;
     margin: 0px 3.5%;
     padding: 15px;
     line-height: 1;
@@ -90,6 +91,7 @@ START CSS
     color: white;
     text-decoration: none;
   }
+  
   #planYourVisit {
     background-color: #FF764E;
   }
@@ -99,3 +101,14 @@ START CSS
   #getInvolved {
     background-color: #FFCD69;
   }
+    #parkGuide #leftSide {
+    width:20%;
+    }
+    #parkGuide #rightSide {
+    width:70%;
+    }
+  .circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
