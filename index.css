@@ -1,4 +1,9 @@
 /*
+Import fonts
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+/*
 CSS RESET
 */
 
@@ -53,6 +58,44 @@ START CSS
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    
   }
-
+  html{
+    font-size:62.5%;
+  }
+  body{
+    line-height:2;
+    font-size:1.5rem;
+    font-family: 'Roboto Mono', monospace;
+  }
+  h1, h2, h3, h4{
+    font-family: 'Chelsea Market', cursive;
+    font-weight: 700;
+    letter-spacing:3px;
+    padding:4% 0;
+  }
+  .links {
+      width: 60%;
+      margin: 30px auto;
+      
+  }
+  .links a {
+    width: 25%;
+    text-align: center;
+    margin: 0px 3.5%;
+    padding: 15px;
+    line-height: 1;
+    display: inline-block;
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+  }
+  #planYourVisit {
+    background-color: #FF764E;
+  }
+  #learnAboutThePark {
+    background-color: #5ED3EB;
+  }
+  #getInvolved {
+    background-color: #FFCD69;
+  }
